@@ -8,13 +8,13 @@
     "start": "next start",
     "lint": "eslint src --max-warnings=0",
     "postinstall": "husky install",
-    "test": "jest",
+    "test": "jest --passWithNoTests",
     "test:watch": "yarn test --watch"
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx}": [
       "yarn lint --fix",
-      "yarn test --findRelatedTests --bail"
+      "yarn test --passWithNoTests --bail"
     ]
   },
   "dependencies": {
