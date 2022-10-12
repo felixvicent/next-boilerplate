@@ -1,0 +1,16 @@
+{
+	"name": "Boilerplate NextJS",
+	"short_name": "NextJS",
+	"icons": [
+		{
+			"src": "/vercel.svg",
+			"type": "image/svg",
+			"sizes": "192x192"
+		}
+	],
+	"background_color": "#06092b",
+	"description": "A Boilerplate to project using NextJS",
+	"display": "fullscreen",
+	"start_url": "/",
+	"theme_color": "#06092b"
+}
